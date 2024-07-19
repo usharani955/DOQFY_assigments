@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Snippet Created</title>
+</head>
+<body>
+    <h1>Snippet Created</h1>
+    <p>Your snippet has been created. Share the URL below to view it:</p>
+    <p><a href="{% url 'view_snippet' snippet.id %}">{{ request.build_absolute_uri }}{% url 'view_snippet' snippet.id %}</a></p>
+</body>
+</html>
